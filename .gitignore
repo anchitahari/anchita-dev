@@ -1,0 +1,9 @@
+# Binaries
+/bin/
+*.exe
+
+# Environment variables (important — never commit these)
+.env
+
+# OS
+.DS_Store
