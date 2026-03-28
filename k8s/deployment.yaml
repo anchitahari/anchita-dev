@@ -1,0 +1,36 @@
+# Tells Kubernetes to make 2 copies of container and uses health endpoint as readiness and liveness probes 
+# Readiness is measured based on if a pod ready to receive traffic
+# Liveness is measure by checking if the pod is healthy. If it is unhealhty, Kubernetes will need to restart the pod.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anchita-dev
+  labels:
+    app: anchita-dev
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: anchita-dev
+  template:
+    metadata:
+      labels:
+        app: anchita-dev
+    spec:
+      containers:
+        - name: anchita-dev
+          image: 261142222458.dkr.ecr.us-east-1.amazonaws.com/anchita-dev:latest
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 20
