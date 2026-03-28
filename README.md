@@ -5,13 +5,13 @@ The backend is written in Go, containerized with Docker, and deployed
 on AWS EKS. It includes an AI-powered chatbot that answers questions
 about my experience using RAG (Retrieval-Augmented Generation).
 
-This repo is a work in progress — I'm building and documenting it
+This repo is a work in progress that I'm building and documenting it
 publicly as I go.
 
 ## Tech stack
 
 - **Backend:** Go (net/http)
-- **Frontend:** HTML, CSS → migrating to React (Phase 3)
+- **Frontend:** HTML, CSS → migrating to Astro (Phase 3)
 - **Containerization:** Docker
 - **Orchestration:** Kubernetes on AWS EKS
 - **Infrastructure:** Terraform
@@ -21,7 +21,7 @@ publicly as I go.
 
 - [x] Phase 1 — Go HTTP server with API skeleton
 - [x] Phase 2 — Dockerize and deploy to EKS
-- [ ] Phase 3 — Frontend rebuild in React
+- [x] Phase 3 — Frontend rebuild in Astro
 - [ ] Phase 4 — AI chatbot feature
 - [ ] Phase 5 — Terraform, CI/CD, observability
 
@@ -45,10 +45,8 @@ Server runs at `http://localhost:8080`
 
 ## Why I built this
 
-I'm a software engineer transitioning toward developer advocacy and
-wanted a project that would let me learn Go, Kubernetes, and AI
-integration in one place — while building something I actually have
-a reason to maintain and improve.
+I'm a software engineer who wanted a project that would let me learn Go, Kubernetes, and AI integration in one place 
+while building something I actually have a reason to maintain and improve.
 
 I'm documenting the journey publicly on
 [LinkedIn](https://www.linkedin.com/in/anchita-hn).
