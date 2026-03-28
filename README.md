@@ -20,7 +20,7 @@ publicly as I go.
 ## Project phases
 
 - [x] Phase 1 — Go HTTP server with API skeleton
-- [ ] Phase 2 — Dockerize and deploy to EKS
+- [x] Phase 2 — Dockerize and deploy to EKS
 - [ ] Phase 3 — Frontend rebuild in React
 - [ ] Phase 4 — AI chatbot feature
 - [ ] Phase 5 — Terraform, CI/CD, observability
