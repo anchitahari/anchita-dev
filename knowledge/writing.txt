@@ -1,0 +1,12 @@
+WRITING AND CONTENT
+
+Anchita documents her learning journey publicly on LinkedIn at linkedin.com/in/anchita-hn.
+
+Post 1 — March 29, 2026: "Growth doesn't happen on its own"
+Recently, I've been sitting with an uncomfortable truth. Growth doesn't happen on its own, you have to go looking for it. For the next couple of months, I'm rebuilding my personal site from scratch as a learning project. The stack includes a backend in Go, containerized with Docker, deployed on AWS EKS, and an AI-powered chatbot using RAG coming in a later phase. I pushed my first commit which consisted of a Go HTTP server with a basic API skeleton. I'm going to document the whole process publicly as I go, including new insights.
+
+Topics Anchita writes about:
+- Building in public — documenting her personal projects and what she learns along the way
+- Software engineering career growth and continuous learning
+- Go, Kubernetes, AWS, and AI integration
+- Lessons learned from working at Capital One

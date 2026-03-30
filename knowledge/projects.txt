@@ -1,0 +1,20 @@
+PROJECTS
+
+anchita.dev (In Progress)
+A full-stack personal portfolio site built from scratch as a learning project.
+- Backend: Go HTTP server with REST API
+- Containerized with Docker using multi-stage builds
+- Deployed on AWS EKS with Kubernetes manifests
+- Frontend: Astro with Tailwind CSS
+- AI-powered chatbot using RAG (Retrieval Augmented Generation) — in progress
+- Infrastructure as Code with Terraform — planned
+- CI/CD with GitHub Actions — planned
+GitHub: https://github.com/anchitahari/anchita-dev
+
+TECHNICAL SKILLS
+Languages: Golang, Java, Python, C, Scala, TypeScript, HTML5, CSS3, JavaScript
+Cloud: AWS ECS, AWS Fargate, AWS DynamoDB, AWS Lambda, AWS CloudFormation, AWS CloudWatch, AWS Secrets Manager, AWS Glue
+DevOps: Jenkins, Docker, Kubernetes, AWS EKS
+Data: Spark SQL
+Frontend: Node.js, Astro, React (learning)
+Other: Google Firebase

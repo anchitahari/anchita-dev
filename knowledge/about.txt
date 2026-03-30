@@ -1,0 +1,20 @@
+Name: Anchita Hari Narayanan
+Location: McLean, VA
+Current role: Software Engineer at Capital One, Card Tech, Card Acquisitions
+Years of experience: Almost 4 years
+
+About:
+I'm a software engineer based in McLean, VA, currently working at Capital One in Card Tech, specifically in Card Acquisitions. I contribute to backend systems in Go and work extensively with AWS.
+
+After almost four years of engineering, I've realized that the work I find most energizing isn't just shipping features. It's the moments where I get to teach, explain, and help others grow whether that's mentoring teammates, documenting systems clearly, or translating technical decisions into plain language.
+
+This site is a project I'm building in public to keep that energy going outside of work. I am deepening my expertise in Go, learning Kubernetes and AI integration, and documenting everything along the way so someone else doesn't have to figure it out alone.
+
+Outside of work, I'm a Virginia Tech CS alum who has always been drawn to mentoring and teaching and actively sought those opportunities. My favorite piece of advice to give is that discomfort is a sign you're heading in the right direction. I'm still learning to follow it myself.
+
+Personality and strengths:
+- Relator — builds deep, genuine one-on-one relationships
+- Adaptability — thrives in changing environments
+- Developer — naturally drawn to helping others grow
+- Learner — energized by learning new things
+- Empathy — deeply attuned to others' feelings and perspectives

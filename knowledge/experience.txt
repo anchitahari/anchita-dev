@@ -1,0 +1,27 @@
+WORK EXPERIENCE
+
+Software Engineer, Capital One (July 2024 - Present), McLean, VA
+- Led an external contractor team to implement Sealights across 5 repositories, establishing office hours and PR reviews to standardize telemetry and enforce quality gates
+- Independently identified an undocumented dependency between Capture's validation logic and an upcoming Config v3 migration that would have caused production breakages
+- Delivered end-to-end onboarding of referral applications to Capture as the first cross-team contributor to the Config codebase
+- Enabled shipping speed customization for the Decisioning Platform by implementing ZipType rendering and refactoring address validation into Capture
+- Migrated app generation API endpoint to the mock service, retiring legacy infrastructure and reducing pipeline build times by 50%
+
+Associate Software Engineer, Capital One (August 2022 - July 2024), McLean, VA
+Rotation 1: Network Automation - Cloud Productivity Engineering (Aug 2022 - Aug 2023)
+- Configured external file gateways for Itential and Aruba, enabling secure data exchange with third-party clients
+- Supported the Voice team on mOPL initiatives by deploying Lambda functions via Jenkins
+
+Rotation 2: Card Acquisitions - Card Tech (Aug 2023 - July 2024)
+- Expanded Capture's client integration capabilities by implementing new search combinations and features in Golang, including a tax ID-only search that enabled critical GOAT phase 2 deliverables
+- Maintained and modernized Process App, the primary credit card pre-approval service
+
+Software Development Engineer Intern, Amazon (May 2021 - August 2021), Seattle, WA
+- Programmed an Alexa feature that proactively recommends Kindle Unlimited books based on customer affinity and favorites
+- Built the underlying data pipeline with AWS Glue in Scala and TypeScript CDK
+- Queried and joined data via Spark SQL, wrote results to DynamoDB, validated recommendations via integration tests
+
+EDUCATION
+Virginia Polytechnic Institute and State University (Virginia Tech)
+B.S. Computer Science, Minor in Data and Decisions
+August 2018 - May 2022, Blacksburg, VA
