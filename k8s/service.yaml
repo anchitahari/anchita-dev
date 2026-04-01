@@ -2,11 +2,20 @@ apiVersion: v1
 kind: Service
 metadata:
   name: anchita-dev-service
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-1:261142222458:certificate/23b20d8a-bedb-40d7-baaa-5b051d3657d0
+    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "443"
 spec:
   type: LoadBalancer
   selector:
     app: anchita-dev
   ports:
-    - protocol: TCP
+    - name: https
+      protocol: TCP
+      port: 443
+      targetPort: 8080
+    - name: http
+      protocol: TCP
       port: 80
       targetPort: 8080

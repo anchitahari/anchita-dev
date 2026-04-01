@@ -22,8 +22,8 @@ publicly as I go.
 - [x] Phase 1 — Go HTTP server with API skeleton
 - [x] Phase 2 — Dockerize and deploy to EKS
 - [x] Phase 3 — Frontend rebuild in Astro
-- [ ] Phase 4 — AI chatbot feature
-- [ ] Phase 5 — Terraform, CI/CD, observability
+- [x] Phase 4 — AI chatbot feature
+- [x] Phase 5 — Terraform, CI/CD, observability
 
 ## Running locally
 

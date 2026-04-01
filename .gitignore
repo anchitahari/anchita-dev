@@ -5,5 +5,12 @@
 # Environment variables (important — never commit these)
 .env
 
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
 # OS
 .DS_Store
