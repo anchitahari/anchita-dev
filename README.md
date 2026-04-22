@@ -1,9 +1,14 @@
 # anchita-dev
 
 My personal portfolio site, rebuilt from scratch as a learning project.
-The backend is written in Go, containerized with Docker, and deployed
-on AWS EKS. It includes an AI-powered chatbot that answers questions
+The backend is written in Go, containerized with Docker, and originally
+deployed on AWS EKS. It includes an AI-powered chatbot that answers questions
 about my experience using RAG (Retrieval-Augmented Generation).
+
+The backend has since been migrated from EKS to Railway to reduce infrastructure
+costs. EKS was over-engineered for a personal project. The original EKS setup
+(VPC, managed node groups, cluster config) is preserved in [`terraform/main.tf`](terraform/main.tf)
+as a reference for how it was provisioned.
 
 This repo is a work in progress that I'm building and documenting it
 publicly as I go.
@@ -13,7 +18,8 @@ publicly as I go.
 - **Backend:** Go (net/http)
 - **Frontend:** HTML, CSS → migrating to Astro (Phase 3)
 - **Containerization:** Docker
-- **Orchestration:** Kubernetes on AWS EKS
+- **Orchestration:** Kubernetes on AWS EKS (original deployment)
+- **Deployment:** Railway (current)
 - **Infrastructure:** Terraform
 - **AI:** LLM API + vector database (RAG)
 
@@ -41,7 +47,7 @@ Server runs at `http://localhost:8080`
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET | `/api/health` | Liveness check |
-| POST | `/api/chat` | AI chatbot (coming in phase 4) |
+| POST | `/api/chat` | AI chatbot |
 
 ## Why I built this
 
